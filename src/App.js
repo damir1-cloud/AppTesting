@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import {Form} from './MaterialUITest';
    
 import './App.css';
 
@@ -36,6 +37,10 @@ if(isfetch){
     
     <div>
       Title is {state.title}
+      <br/>
+        <div style={{color:"blue", paddingTop: "10%", textAlign: "center"}}>
+      <Form/>
+        </div>
     </div>
 
 
